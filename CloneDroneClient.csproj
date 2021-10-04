@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
-    <AssemblyName>InfiniteUpgradePoints</AssemblyName>
-    <Description>Infinite Upgrade Points</Description>
+    <AssemblyName>CloneDroneClient</AssemblyName>
+    <Description>A cheat client for Clone Drone In The Danger Zone</Description>
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>9.0</LangVersion>
