@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
-    <AssemblyName>InfinateUpgradePoints</AssemblyName>
-    <Description>Infinate Upgrade Points</Description>
+    <AssemblyName>InfiniteUpgradePoints</AssemblyName>
+    <Description>Infinite Upgrade Points</Description>
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>9.0</LangVersion>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r95/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.waves.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.birds.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.fog.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.clouds.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.clouds2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.globe.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.net.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.cells.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.trunk.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.topology.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.dots.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.rings.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.halo.min.js"></script>
+
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Infinate Upgrade Points by Ju1-js</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<section id="Intro" style="padding-top: 10%; padding-bottom: 5%; padding-left: 2.5%;">
+    <div style="position: relative;">
+        <div id="Title">
+            <h1>Infinite Upgrade Points</h1>
+        </div>
+    </div>
+    <div id="SubTitle">
+        <p style="color: #ffffffc0">A cheat for <a href="https://clonedroneinthedangerzone.com/">Clone Drone In The Danger Zone</a>
+            <br> Infinite Upgrade Points is made with <a href="https://github.com/BepInEx/BepInEx">BepInEx.</a></p>
+        <ul class="actions">
+            <li><a href="#three" class="button scrolly">Download</a></li>
+        </ul>
+    </div>
+</section>
+
+<script>
+    const effect = VANTA.BIRDS({
+            el: "#Intro",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00
+        })
+        //horizon scrollbar fix... sort of.
+    window.onload = function() {
+        window.dispatchEvent(new Event('resize'));
+    };
+</script>
+
+</html>
