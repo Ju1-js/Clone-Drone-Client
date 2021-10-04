@@ -1,9 +1,11 @@
 ﻿using BepInEx;
+using UnityEngine;
+using HarmonyLib;
 
 namespace MyFirstPlugin
 {
-    [BepInPlugin(github.com/Ju1-js/Infinite-Upgrade-Points, Infinate Upgrade Points, PluginInfo.PLUGIN_VERSION)]
-    public class Plugin : BaseUnityPlugin
+    [BepInPlugin(github.com/Ju1-js/Infinite-Upgrade-Points, Infinate Upgrade Points, "1.0.0")]
+    public class InfiniteUpgradePoints : BaseUnityPlugin
     {
         private void Awake()
         {
