@@ -1,8 +1,8 @@
-﻿using BepInEx;
+using BepInEx;
 using UnityEngine;
 using HarmonyLib;
 
-namespace MyFirstPlugin
+namespace CloneDroneClient
 {
     [BepInPlugin(github.com/Ju1-js/Infinite-Upgrade-Points, Infinate Upgrade Points, "1.0.0")]
     public class InfiniteUpgradePoints : BaseUnityPlugin
