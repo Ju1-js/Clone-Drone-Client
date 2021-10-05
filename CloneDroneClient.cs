@@ -4,8 +4,8 @@ using HarmonyLib;
 
 namespace CloneDroneClient
 {
-    [BepInPlugin(github.com/Ju1-js/Infinite-Upgrade-Points, Infinate Upgrade Points, "1.0.0")]
-    public class InfiniteUpgradePoints : BaseUnityPlugin
+    [BepInPlugin(com.github.Ju1-js.CloneDroneClient, Clone Drone Client, "1.0.0")]
+    public class CloneDroneClient : BaseUnityPlugin
     {
         private void Awake()
         {
