@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "9IAPsvs3l6s4Ulm7lynGIUKeC3XtsxnNwBaf2slZcsqrg90PChDPdx9staSVodaWxj8MIApe7QuyHYBoIW8oKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jlaur\\Documents\\GitHub\\Clone-Drone-Client\\CloneDroneClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jlaur\\.nuget\\packages\\bepinex.analyzers\\1.0.6\\bepinex.analyzers.1.0.6.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\bepinex.baselib\\5.4.16\\bepinex.baselib.5.4.16.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\bepinex.core\\5.4.16\\bepinex.core.5.4.16.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\bepinex.plugininfoprops\\1.1.0\\bepinex.plugininfoprops.1.1.0.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\harmonyx\\2.5.5\\harmonyx.2.5.5.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.2\\microsoft.netframework.referenceassemblies.net46.1.0.2.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\mono.cecil\\0.11.4\\mono.cecil.0.11.4.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\monomod.runtimedetour\\21.8.19.1\\monomod.runtimedetour.21.8.19.1.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\monomod.utils\\21.8.19.1\\monomod.utils.21.8.19.1.nupkg.sha512",
+    "C:\\Users\\jlaur\\.nuget\\packages\\unityengine.modules\\2018.4.32\\unityengine.modules.2018.4.32.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CloneDroneClient depends on UnityEngine.Modules (>= 2018.4.31.2174630) but UnityEngine.Modules 2018.4.31.2174630 was not found. An approximate best match of UnityEngine.Modules 2018.4.32 was resolved.",
+      "libraryId": "UnityEngine.Modules",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6"
+      ]
+    }
+  ]
+}
